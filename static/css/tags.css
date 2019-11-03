@@ -1,0 +1,25 @@
+ul.skill-list {
+    overflow: hidden;
+    text-align: center;
+}
+
+ul.skill-list li {
+    color: #424242;
+    background: #e0e0e0;
+    border: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    border-radius: 16px;
+
+    margin: 5px;
+    padding: 10px;
+    float: left;
+    position: relative;
+    font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: inline;
+    align-items: center;
+}
+
+li.break {
+    clear: left;
+}
